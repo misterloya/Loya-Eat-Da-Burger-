@@ -1,13 +1,44 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: #FFFFFF;
 }
 
 .label {
   font-weight: bold;
 }
+.notEatenBurgers{
+  display: inline-block;
+  text-align: left;
+  border: 2px solid #5a5a5a;
+}
 
+.eatenBurgers{
+  display: inline-block;
+  text-align: left;
+  border: 2px solid #5a5a5a;
+
+}
+.title {
+  display: block;
+  text-align: center;
+}
+
+.create-form {
+  display: block;
+  text-align: center;
+}
+
+.burger-row{
+  display: block;
+  text-align: center;
+}
+
+h2{
+  display: block;
+  text-align: center; 
+}
+ 
 .create-update-form {
   padding: 5px;
   margin: 5px;
@@ -15,5 +46,5 @@ li {
 }
 
 .form-group {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
