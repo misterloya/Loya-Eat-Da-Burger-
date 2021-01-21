@@ -27,7 +27,7 @@ $(function() {
 
     var newBurger = {
       name: $("#ca").val().trim(),
-      eaten: $("[name=eaten]:checked").val().trim()
+      eaten: $("[name=group1]:checked").val().trim()
     };
 
     // Send the POST request.
