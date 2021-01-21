@@ -1,22 +1,36 @@
 li {
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
+  margin: 10px;
   background: #FFFFFF;
 }
 
-.label {
-  font-weight: bold;
-}
-.notEatenBurgers{
-  display: inline-block;
-  text-align: left;
-  border: 2px solid #5a5a5a;
+.label{
+  font-size: 1.8rem;
+  color: #9e9e9e;
+  margin-top: 0;
 }
 
-.eatenBurgers{
+.nav-wrapper{
+  display: block;
+  text-align: center;
+}
+.notEatenBurgers {
   display: inline-block;
   text-align: left;
   border: 2px solid #5a5a5a;
+  width: 409px;
+  height: 375px;
+  margin-right: 20px;
+
+}
+
+.eatenBurgers {
+  display: inline-block;
+  text-align: left;
+  border: 2px solid #5a5a5a;
+  width: 409px;
+  height: 375px;
+  margin-left: 20px;
 
 }
 .title {
@@ -29,14 +43,23 @@ li {
   text-align: center;
 }
 
-.burger-row{
-  display: block;
-  text-align: center;
+.burger-row {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 96%;
+  margin: 0.6rem 0 1.68rem 0;
 }
 
 h2{
   display: block;
   text-align: center; 
+  padding: 10px;
 }
  
 .create-update-form {
@@ -46,5 +69,17 @@ h2{
 }
 
 .form-group {
-  margin-bottom: 7px;
+  margin-bottom: 29px;
+  width: 22%;
+  display: inline-flex;
 }
+
+.inputBurger{
+  width: 50%;
+}
+
+.form-group-input{
+  width: 50%;
+  display: inline-flex;
+}
+
