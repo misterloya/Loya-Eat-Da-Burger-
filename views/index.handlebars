@@ -41,7 +41,7 @@
 <div class="burger-row">
  <div class="burgerAdd">
       
-      <h2>Add a burger</h2>
+      <h2>Add a Burger Here</h2>
       <form class="create-form">
 
         <div class="form-group-input">
@@ -86,9 +86,9 @@
 
 
 <div class="notEatenBurgers">
-    <h2>Burgers that are not eaten!</h2>
+    <h2>Burgers Not Eaten...</h2>
 
-    <ul>
+    <ul class="burgerList">
       {{#each burgers}}
         {{#unless eaten}}
           {{> burgers/burger-block eaten=true}}
@@ -98,9 +98,9 @@
 </div>
 
 <div class="eatenBurgers">
-  <h2>Burgers that have already been eaten!</h2>
+  <h2>Eaten Burgers!</h2>
 
-  <ul>
+  <ul class="burgerList">
     {{#each burgers}}
       {{#if eaten}}
         {{> burgers/burger-block eaten=false}}
