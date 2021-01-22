@@ -32,9 +32,9 @@ li {
 
 .burgerSlot{
   border: 2px solid #5a5a5a;
-  height: 623px;
+  height: fit-content;
   margin: -6px;
-  padding: 10px;
+  padding: 10px
 
 }
 
@@ -56,12 +56,10 @@ li {
  .container {
   background-image: url(/background.jpg);
   max-width: 1280px !important;
-  width: 85% !important;
-  align-content: center !important;
-  display: block !important;
-  background-size: cover !important;
-  margin-left: 110px !important;
-  margin-right: 1px !important;
+  /* width: 85% !important; */
+  /* align-content: center !important; */
+  display: contents !important;
+  /* background-size: cover !important; */
  }
 
 .eatenBurgers {
@@ -94,7 +92,7 @@ h1 {
   font-size: 4.2rem !important;
   line-height: 110% !important;
   margin: -0.2rem 0 1.68rem 0 !important;
-  background-color: #333;
+  /* background-color: #333; */
 }
 
 h2{
