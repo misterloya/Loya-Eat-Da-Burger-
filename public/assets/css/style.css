@@ -24,6 +24,32 @@ li {
 
 }
 
+.burgerSlot{
+  border: 2px solid #5a5a5a;
+  height: 623px;
+  margin: -6px;
+  padding: 10px;
+  background-image: url("public\burger1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.row {
+  /* font-size: -29.8rem; */
+  line-height: 110%;
+  margin: 2.8rem 0 1.68rem 0;
+  border: 2px solid black;
+  width: fit-content;
+  height: fit-content;
+  font-size: 32px;
+  font-family: fangsong;
+  color: black;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
 .eatenBurgers {
   display: inline-block;
   text-align: left;
