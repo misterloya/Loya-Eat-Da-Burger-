@@ -1,6 +1,6 @@
   <nav>
     <div class="nav-wrapper">
-      <h1> Eat Da Burgers! </h1>
+      <h1> Let's Eat Burgers! </h1>
     </div>
   </nav>
 
@@ -11,7 +11,7 @@
           <img src="/burger5.png" alt="Girl in a jacket" width="246px" height="203px">
 
           <h1> We Know Burgers</h1>
-          <p>30 years of experience eating burgers from different states in the US.
+          <p> We've got years of burger experience.
           </p>
         </div>
       </div>
@@ -19,16 +19,16 @@
         <div class="burgerSlot">
           <img src="/burger6.png" alt="Burger 2" width="246px" height="203px">
 
-          <h1> We're Hungry</h1>
-            <p>We haven't eaten since Lunch!
+          <h1> What's for Lunch?</h1>
+            <p>Type in your favorite burger.
           </p>
         </div>
       </div>
       <div  class="col s4" >
           <div class="burgerSlot">
             <img src="/burger7.png" alt="Girl in a jacket"width="246px" height="203px">
-              <h1> What's your favorite burger?</h1>
-                <p>We know you've had some great burgers, tell us more
+              <h1> Let's Eat Burgers! </h1>
+                <p>Click "Eat Me" to eat your burger!
               </p>
           </div>
       </div>
@@ -37,7 +37,48 @@
   </div>
 
 <br>
+ <div class="burgerAdd">
+      
+      <h2>Add a burger</h2>
+      <form class="create-form">
 
+        <div class="form-group-input">
+          <label for="ca">Add your Own Burger:</label>
+          <input type="text" id="ca" class="inputBurger" name="name">
+        </div>
+
+        <div class="form-group">
+          <label for="eaten"> Have you eaten it or not?</label><br>
+          
+            <form action="#">
+              
+              <p>
+                <label>
+                  <input name="group1" type="radio" value="0" />
+                  <span>Haven't Eat it</span>
+                </label>
+            </p>
+
+              <p>
+                <label>
+                  <input name="group1" type="radio" value="1" checked />
+                  <span>Eaten It </span>
+                </label>
+              </p>
+      <br>
+        
+
+        
+          </form>
+            {{!-- <input type="radio" name="eaten" value="1" checked> It's Eaten!<br>
+            <input type="radio" name="eaten" value="0"> It's Not Eaten<br> --}}
+
+
+            <button class="btn waves-effect waves-light" type="submit" name="action">Add This Burger</button>
+              </div>
+        </form>
+
+  </div>
 
 <div class="burger-row">
 
@@ -67,48 +108,11 @@
 
 </div>
 
-<h2>Add a burger</h2>
-<form class="create-form">
-
-  <div class="form-group-input">
-    <label for="ca">Add your Own Burger:</label>
-    <input type="text" id="ca" class="inputBurger" name="name">
-  </div>
-
-  <div class="form-group">
-    <label for="eaten"> Have you eaten it or not?</label><br>
-    
-      <form action="#">
-        
-        <p>
-          <label>
-            <input name="group1" type="radio" value="0" />
-            <span>Haven't Eat it</span>
-          </label>
-      </p>
-
-        <p>
-          <label>
-            <input name="group1" type="radio" value="1" checked />
-            <span>Eaten It </span>
-          </label>
-        </p>
-<br>
-  
-
-  
-    </form>
-      {{!-- <input type="radio" name="eaten" value="1" checked> It's Eaten!<br>
-      <input type="radio" name="eaten" value="0"> It's Not Eaten<br> --}}
-
-
-      <button class="btn waves-effect waves-light" type="submit" name="action">Add This Burger</button>
-        </div>
-  </form>
+ 
 
 
   <footer class="page-footer">
-          <div class="container">
+          <div class="container2">
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Notes about this Project</h5>
@@ -125,7 +129,7 @@
             </div>
           </div>
           <div class="footer-copyright">
-            <div class="container">
+            <div class="container3">
             © 2020 Issac Loya
             <a class="grey-text text-lighten-4 right" href="https://misterloya.github.io/Issac-Loya-Portfolio/html/aboutme.html">More Links</a>
             </div>

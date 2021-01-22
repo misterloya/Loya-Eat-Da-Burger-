@@ -1,7 +1,9 @@
 li {
-  padding: 10px;
-  margin: 10px;
-  background: #FFFFFF;
+    padding: 12px;
+    margin: 5px;
+    background: #FFFFFF;
+    display: inline-block;
+    place-items: center;
 }
 
 .label{
@@ -17,10 +19,12 @@ li {
 .notEatenBurgers {
   display: inline-block;
   text-align: left;
-  border: 2px solid #5a5a5a;
+  border: 10px solid #ffffff;
   width: 409px;
-  height: 375px;
-  margin-right: 20px;
+  height: fit-content;
+  margin-left: 20px;
+  background-image: url(/whitecementbackground.jpg);
+  border-radius: 32px;
 
 }
 
@@ -57,15 +61,16 @@ li {
   margin-left: 110px !important;
   margin-right: 1px !important;
  }
- 
+
 .eatenBurgers {
   display: inline-block;
   text-align: left;
-  border: 2px solid #5a5a5a;
+  border: 10px solid #ffffff;
   width: 409px;
-  height: 375px;
+  height: fit-content;
   margin-left: 20px;
-
+  background-image: url(/whitecementbackground.jpg);
+  border-radius: 32px;
 }
 .title {
   display: block;
@@ -85,9 +90,10 @@ li {
 }
 
 h1 {
-  font-size: 3.2rem;
-  line-height: 96%;
-  margin: 0.6rem 0 1.68rem 0;
+  font-size: 4.2rem !important;
+  line-height: 110% !important;
+  margin: -0.2rem 0 1.68rem 0 !important;
+  background-color: #333;
 }
 
 h2{
@@ -118,5 +124,24 @@ h2{
 }
 
 body{
-  /* background-image: url(/background.jpg); */
+  background-image: url(/chalkbackground.jpg);
+}
+
+.burgerAdd{
+  color: black;
+    background-color: #FFFFFF;
+    padding-left: 189px;
+    padding-right: 50px;
+    border: 2px solid #333;
+    width: 1250px;
+    display: grid;
+    align-items: center;
+    margin-left: 60px;
+
+}
+
+.page-footer {
+  padding-top: 20px !important;
+  color: #fff !important;
+  background-color: #333 !important;
 }
