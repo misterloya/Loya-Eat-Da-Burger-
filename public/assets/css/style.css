@@ -32,6 +32,13 @@ nav {
   background-color: brown !important;
   height: 90px !important;
 }
+
+.page-footer {
+  padding-top: 20px;
+  color: #fff;
+  background-color: brown !important;
+  border: 1px solid gray;
+}
 .notEatenBurgers {
   display: inline-block;
   text-align: left;
