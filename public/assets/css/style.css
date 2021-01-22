@@ -14,10 +14,23 @@ li {
   color: #9e9e9e;
   margin-top: 0;
 }
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 250px;
+}
 
-.nav-wrapper{
-  display: block;
-  text-align: center;
+a {
+  font-size: 1.7rem !important;
+}
+
+nav {
+  display: flow-root;
+  justify-content: center;
+  padding: 10px;
+  background-color: brown !important;
+  height: 90px !important;
 }
 .notEatenBurgers {
   display: inline-block;
@@ -41,7 +54,6 @@ li {
 .row {
   line-height: 96%;
   margin: 2.8rem 0 1.68rem 0;
-  border: 2px solid black;
   width: 1143PX;
   height: auto;
   font-size: 32px;
@@ -52,6 +64,8 @@ li {
   padding: 20px;
   align-content: center;
  }
+
+
 
  .container {
   background-image: url(/background.jpg);
@@ -127,6 +141,12 @@ body{
   background-image: url(/chalkbackground.jpg);
 }
 
+.topLogo{
+  display: block;
+  align-items: center;
+}
+
+
 .burgerAdd{
   display: inline-block;
   text-align: left;
@@ -142,3 +162,4 @@ body{
   display: block;
   text-align: center;
 }
+
