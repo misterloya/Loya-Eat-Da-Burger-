@@ -21,11 +21,10 @@ li {
   text-align: left;
   border: 10px solid #ffffff;
   width: 409px;
-  height: fit-content;
-  margin-left: 20px;
+  height: 430px;
+  /* margin-left: 20px; */
   background-image: url(/whitecementbackground.jpg);
-  border-radius: 32px;
-
+  /* border-radius: 32px; */
 }
 
 .burgerSlot{
@@ -67,10 +66,10 @@ li {
   text-align: left;
   border: 10px solid #ffffff;
   width: 409px;
-  height: fit-content;
-  margin-left: 20px;
+  height: 430px;
+  /* margin-left: 20px; */
   background-image: url(/whitecementbackground.jpg);
-  border-radius: 32px;
+  /* border-radius: 32px; */
 }
 .title {
   display: block;
@@ -84,11 +83,11 @@ li {
 
 .burger-row {
   display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: fit-content;
 }
-
 h1 {
   font-size: 4.2rem !important;
   line-height: 110% !important;
@@ -129,15 +128,12 @@ body{
 
 .burgerAdd{
   color: black;
-    background-color: #FFFFFF;
-    padding-left: 189px;
-    padding-right: 50px;
-    border: 2px solid #333;
-    width: 1250px;
-    display: grid;
-    align-items: center;
-    margin-left: 60px;
-
+  background-color: #FFFFFF;
+  border: 2px solid #333;
+  width: 630px;
+  height: 430px;
+  justify-items: stretch;
+  /* margin-left: 60px;
 }
 
 .page-footer {
