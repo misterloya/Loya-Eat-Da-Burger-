@@ -29,27 +29,35 @@ li {
   height: 623px;
   margin: -6px;
   padding: 10px;
-  background-image: url("public\burger1.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+
 }
 
 .row {
-  /* font-size: -29.8rem; */
-  line-height: 110%;
+  line-height: 96%;
   margin: 2.8rem 0 1.68rem 0;
   border: 2px solid black;
-  width: fit-content;
-  height: fit-content;
+  width: 1143PX;
+  height: auto;
   font-size: 32px;
   font-family: fangsong;
-  color: black;
+  color: white;
   margin: 20px;
   text-align: center;
   padding: 20px;
-}
+  align-content: center;
+ }
 
+ .container {
+  background-image: url(/background.jpg);
+  max-width: 1280px !important;
+  width: 85% !important;
+  align-content: center !important;
+  display: block !important;
+  background-size: cover !important;
+  margin-left: 110px !important;
+  margin-right: 1px !important;
+ }
+ 
 .eatenBurgers {
   display: inline-block;
   text-align: left;
@@ -109,3 +117,6 @@ h2{
   display: inline-flex;
 }
 
+body{
+  /* background-image: url(/background.jpg); */
+}
